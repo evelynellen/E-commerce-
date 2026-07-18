@@ -1,0 +1,55 @@
+@import url("global.css");
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--color-white);
+    padding: 20px 60.5px;
+}
+
+.header-navigation a{
+    font-family: var(--font-primary);
+    font-size: var(--font-size-body);
+    color: var(--color-black);
+    text-decoration: none;
+    padding: 30px;
+}
+
+nav a{
+    font-family: var(--font-primary);
+    font-size: var(--font-size-body);
+    color: var(--color-black);
+    text-decoration: none;
+    background-color: var(--color-green);
+    padding: 12px 30px;
+}
+
+.btn{
+    border-radius: 15px 3px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 189px;
+    gap: 60px;
+}
+
+.details{
+    font-family: var(--font-primary);
+    gap: 20px;
+}
+
+.star{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 5px;
+}
+
+.star span{
+    color: var(--color-grey);
+    font-size: var(--font-size-body);
+}
