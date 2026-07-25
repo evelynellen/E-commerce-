@@ -102,16 +102,24 @@ main{
 
 .page {
     background-color: var(--color-green2);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 60px;
+    gap: 50px;
 }
 
 section h2 {
     display: flex;
     justify-content: center;
+    font-size: var(--font-size-h2);
     font-family: var(--font-primary);
    
 }
 
 .btn-enviar {
+    display: flex;
+    justify-content: center;
     font-family: var(--font-primary);
     font-size: var(--font-size-body);
     color: var(--color-black);
@@ -119,4 +127,24 @@ section h2 {
     background-color: var(--color-green);
     padding: 12px 30px;
     border-radius: 15px 3px;
+}
+
+.group {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-form {
+    font-family: var(--font-primary);
+    display: flex;
+    justify-content: center;
+    padding: 39px;
+    gap: 16px;
+}
+
+
+.input {
+    border-radius: 5px;
+    width: 249px;
+    height: 41px;
 }
